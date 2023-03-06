@@ -16,7 +16,7 @@ public class ShortestDistance {
 		String path = sc.nextLine();
 		sc.close();
 		System.out.format("%.2f", shortDist(st,path));
-
+		
 	}
 	
 	public static double shortDist(int start[], String path) {
