@@ -32,7 +32,7 @@ public class CombinationSort {
 	public static void mergeAS(String st[], int l, int h) {
 		if(h>l) {
 			int m = (l+h)/2 ;
-			//System.out.println("M : "+m);
+			
 			mergeAS(st,l,m);
 			mergeAS(st,m+1,h);
 			mergeAscStable(st,l,m,h);
