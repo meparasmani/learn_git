@@ -21,7 +21,8 @@ public class CombinationSort {
 	
 	public static void mergeAD(String st[], int l, int h) {
 		if(h>l) {
-			int m = (l+h)/2 ;
+			// calculating mid
+			int m = l+(h-l)/2 ;
 			
 			mergeAD(st,l,m);
 			mergeAD(st,m+1,h);
